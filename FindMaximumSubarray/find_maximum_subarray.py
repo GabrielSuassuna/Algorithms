@@ -34,3 +34,6 @@ def find_maximum_subarray(array, low, hight):
             return right_low, right_hight, right_sum
         else:
             return cross_low, cross_high, cross_sum
+
+a = [-1, -2, -3, -4, -5]
+print(find_maximum_subarray(a, 0, 4))
